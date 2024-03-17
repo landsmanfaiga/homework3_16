@@ -95,5 +95,10 @@ namespace homework3_13.Controllers
             repo.DeleteAd(id);
             return Redirect("/home/index");
         }
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync().Wait();
+            return Redirect("/home/index");
+        }
     }
 }
