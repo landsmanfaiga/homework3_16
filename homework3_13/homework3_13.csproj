@@ -17,8 +17,5 @@
     <ProjectReference Include="..\homework3_13Data\homework3_13Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Include="Views\Home\NewAd.cshtml" />
-  </ItemGroup>
 
 </Project>
